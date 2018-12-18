@@ -1,0 +1,32 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 54.38px);
+  color: #FFF;
+  background: -webkit-linear-gradient(right, #240b36, #c31432);
+  background: -o-linear-gradient(right, #240b36, #c31432);
+  background: linear-gradient(to left, #240b36, #c31432);
+
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 96%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 96%);
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+.w-8 {
+  width: 80px;
+  margin: auto;
+  color: #FFF;
+}
+
+.whyIcons {
+  height: 100px;
+  width: 100px;
+  margin:auto;
+}
